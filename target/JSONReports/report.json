@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-03T10:21:53.792Z",
+        "line": 3,
+        "name": "Customer transfers money between deposit accounts",
+        "description": "",
+        "id": "money-transfer;customer-transfers-money-between-deposit-accounts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepDefinitions.TransferFundsBetweenAccounts.my_checking_account_has_balance_of_$(TransferFundsBetweenAccounts.java:10)\r\n\tat ✽.My checking account has balance of $2000(file:///C:/Users/gaurav.bs.gupta/spring_workspace/MoneyTransferBetweenAccounts/src/test/resources/features/transfer_funds_betweeen_accounts.feature:4)\r\n",
+              "duration": 10970300,
+              "status": "pending"
+            },
+            "line": 4,
+            "name": "My checking account has balance of $2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.TransferFundsBetweenAccounts.my_checking_account_has_balance_of_$(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "My saving account has a balance of $3000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.TransferFundsBetweenAccounts.my_saving_account_has_a_balance_of_$(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3976500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I transfer $100 from my checking account to Savings account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.TransferFundsBetweenAccounts.i_transfer_$_from_my_checking_account_to_savings_account(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2424300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "my checking account should have balance of $1900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1900",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.TransferFundsBetweenAccounts.my_checking_account_should_have_balance_of_$(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1125100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "my saving account should have balance of $3100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3100",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.TransferFundsBetweenAccounts.my_saving_account_should_have_balance_of_$(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Money Transfer",
+    "description": "",
+    "id": "money-transfer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/transfer_funds_betweeen_accounts.feature",
+    "tags": []
+  }
+]

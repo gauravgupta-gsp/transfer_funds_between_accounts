@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.814 sec <<< FAILURE!
+Customer transfers money between deposit accounts(Money Transfer)  Time elapsed: 0.449 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.TransferFundsBetweenAccounts.my_checking_account_has_balance_of_$(TransferFundsBetweenAccounts.java:10)
+	at ?.My checking account has balance of $2000(file:///C:/Users/gaurav.bs.gupta/spring_workspace/MoneyTransferBetweenAccounts/src/test/resources/features/transfer_funds_betweeen_accounts.feature:4)
+
